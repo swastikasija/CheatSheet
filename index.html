@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./prism.css">
+</head>
+<body>
+    <nav class="flex">
+        <img src="https://png.pngtree.com/png-clipart/20190630/original/pngtree-vector-copy-icon-png-image_4164054.jpg" alt="" height="90px" width="90px">
+        <span><h2>       Just Copy And Paste !</h2></span>
+    </nav>
+    <div class="container">
+        <h1>
+            Java Script
+        </h1>
+        <ol>
+            <li>
+                <h3>Variables</h3>
+<pre class="language-js">
+<code>var a = "Swastik";
+let b = "Kartikay";
+const c = "Sneh";
+// prefer to use const
+</code></pre>
+            </li>
+            <li><h3>A Simple Clock</h3>
+                <br>
+                <pre class="language-js">
+<code>setInterval(() => {
+let a = new Date();
+let date = a.toLocaleDateString();
+let time = a.getHours() + ":" + a.getMinutes() + ':' + a.getSeconds()
+document.getElementById('time').innerHTML = time + " on " + date;
+}, 1000);</code>
+                    </pre>
+            </li>
+        </ol>   
+
+    </div>
+    <script src="./prism.js"></script>
+</body>
+</html>

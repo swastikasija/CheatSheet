@@ -1,0 +1,29 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+.container{
+    width: 50%;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+nav{
+    justify-content: center;
+    margin-block: 40px;
+}
+nav img{
+    margin-right: 30px;
+}
+h1{
+    text-align: center;
+    margin: 30px 0;
+}
+h3{
+    margin: 20px 0;
+    padding: 30px;
+
+}
